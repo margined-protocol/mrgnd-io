@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Margined Protocol</title>
+    <link>https://mrgnd.io/posts/</link>
+    <description>Recent content in Posts on Margined Protocol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mrgnd.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Margined Protocol?</title>
+      <link>https://mrgnd.io/posts/home/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/home/</guid>
+      <description>As more financial use-cases are deployed on public blockchain networks common standards and frameworks will be required.
+Margined Protocol is a set of generalised protocols for building and deploying margin engines, and more, on public blockchain networks.
+The project aims to enable the deployment of traditional financial use-cases onto public blockchain networks, whilst also providing a smart contract and tooling library that can be used in decentralised finance applications.
+In addition to providing generalised smart contracts for applications including:</description>
+      <content>&lt;p&gt;As more financial use-cases are deployed on public blockchain networks common standards and frameworks will be required.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Margined Protocol&lt;/strong&gt; is a set of generalised protocols for building and deploying margin engines, and more, on public blockchain networks.&lt;/p&gt;
+&lt;p&gt;The project aims to enable the deployment of &lt;em&gt;traditional financial&lt;/em&gt; use-cases onto public blockchain networks, whilst also providing a smart contract and tooling library that can be used in &lt;em&gt;decentralised finance&lt;/em&gt; applications.&lt;/p&gt;
+&lt;p&gt;In addition to providing generalised smart contracts for applications including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;virtual&lt;/em&gt; Automated Market Makers&lt;/li&gt;
+&lt;li&gt;Margin and Valuation Engines&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Smart&lt;/em&gt; Financial Collateral Arrangements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Margined Protocol&lt;/strong&gt; will also provide off-chain tools and services for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automation of Post-Trade Operations&lt;/li&gt;
+&lt;li&gt;Tokenisation of Traditional Financial Assets&lt;/li&gt;
+&lt;li&gt;On- and Off-Chain Risk Management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Q1 2022&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Publish Litepaper&lt;/li&gt;
+&lt;li&gt;v1 Release Perpetuals Framework Cosmos / Terra
+&lt;ul&gt;
+&lt;li&gt;Generalised vAMM&lt;/li&gt;
+&lt;li&gt;Generalised Perpetuals Margin Engine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Q2 2022&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;v1 Release Perpetuals Framework Solana
+&lt;ul&gt;
+&lt;li&gt;Generalised vAMM&lt;/li&gt;
+&lt;li&gt;Generalised Perpetuals Margin Engine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;v1 &lt;em&gt;Smart&lt;/em&gt; Financial Collateral Arrangement Framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Onwards&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop Risk Management Tooling&lt;/li&gt;
+&lt;li&gt;Develop Digital Asset Securities Framework&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Composability: What is it and why should you care?</title>
+      <link>https://mrgnd.io/posts/composability-21072021/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/composability-21072021/</guid>
+      <description>While many might have heard of Non Fungible Tokens (NFTs), Decentralized Autonomous Organizations (DAOs) or Decentralized Finance (DeFi), all these applications are made possible through smart contracts, which is the major innovation of Ethereum.
+However, you may ask:
+“What are smart contracts?”
+The term “smart contract” was first coined in the 1990s by computer scientist, lawyer and cryptographer Nick Szabo, who defined a smart contract as:
+“A set of promises, specified in digital form, including protocols within which the parties perform on the other promises” [1]</description>
+      <content>&lt;p&gt;While many might have heard of Non Fungible Tokens (NFTs), Decentralized Autonomous Organizations (DAOs) or Decentralized Finance (DeFi), all these applications are made possible through smart contracts, which is the major innovation of Ethereum.&lt;/p&gt;
+&lt;p&gt;However, you may ask:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“What are smart contracts?”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The term “smart contract” was first coined in the 1990s by computer scientist, lawyer and cryptographer Nick Szabo, who defined a smart contract as:&lt;/p&gt;
+&lt;p&gt;“A set of promises, specified in digital form, including protocols within which the parties perform on the other promises” [1]&lt;/p&gt;
+&lt;p&gt;Since then, the concept has evolved with the introduction of Turing-complete blockchain networks like Ethereum. Generally the term is used to refer to computer programs that can run deterministically on blockchain networks like Ethereum and Solana - to name a few.&lt;/p&gt;
+&lt;p&gt;However, smart contracts go beyond simply being isolated computer programs run on a blockchain network. Through the account based design the Ethereum smart contracts are able to interact with other smart contracts. The ability for one contract to run the code and alter the state of another is what is commonly referred to as composability. Through this ability of contracts to interact with one another we have seen the development of DeFi.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But what exactly is Composability?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Put simply, it’s the ability to use existing smart contract applications as building blocks to create more complex use cases. This is the power behind DeFi as developers are free to focus on developing new use-cases by leveraging already existing protocols - leading to compounding innovation through the rapid development cycle.&lt;/p&gt;
+&lt;p&gt;In essence each smart contract becomes an open API that anyone and any contract can interact with. This is made even easier with the increased standardisation of contract interfaces. This is exemplified by the ERC20 standard that has seen massive adoption since its inception and becoming the base for popular assets like USDC, USDT and DAI [3].&lt;/p&gt;
+&lt;p&gt;Another interesting use-case of ERC20 is wrapped Ether (WETH) which allows users to trade ETH as if it was an ERC20 token - this makes integrating ETH into protocols that support ERC20 simple as it can be treated as any other ERC20 asset.&lt;/p&gt;
+&lt;p&gt;The Margined Protocol uses smart contract composability to show how the future of capital markets will benefit from the ability of protocols to interact. Specifically we allowed users of our smart Financial Collateral Arrangement (FCA) to lend their initial margin to the Compound lending protocol. This lets users earn a yield on their collateral whilst remaining pledged for use in the event of default.&lt;/p&gt;
+&lt;p&gt;Smart contract composability allows this as the IM that is pledged between the counterparties in a smart FCA is then lent on Compound which mints interest-bearing assets, cUSDC, that can later be redeemed for the original lent amount plus the interest earned until that point in the original form of eligible collateral - USDC in our example.&lt;/p&gt;
+
+  &lt;img src=&#34;https://mrgnd.io/images/jaime-diagram.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+
+
+&lt;p&gt;The important aspect here is how we have created a new feature for our application by leveraging composability and simply integrating against a permissionless lending protocol such as Compound.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1]: N. Szabo, “Smart Contracts: Building Blocks for Digital Markets”, Extropy nr. 16 (1996)&lt;/li&gt;
+&lt;li&gt;[2]: Matthew N, O. Sadiku, G. Eze: “Smart Contracts: A Primer” (2018)&lt;/li&gt;
+&lt;li&gt;[3]: ERC20 Standard - &lt;a href=&#34;https://ethereum.org/en/developers/docs/standards/tokens/erc-20/&#34;&gt;https://ethereum.org/en/developers/docs/standards/tokens/erc-20/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Carry on Clearing</title>
+      <link>https://mrgnd.io/posts/carry-on-clearing-11052021/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/carry-on-clearing-11052021/</guid>
+      <description>In this article we explain the consequences of concentration risk in financial markets. Following this we explain why the Margined Protocol wants to facilitate the adoption of public blockchain networks and DeFi applications by traditional financial institutions to reduce contractration risks. Achieving this through enabling a wider array of end-users to clear and settle directly.
+Post the Global Financial Crisis (GFC) derivatives trading has been transformed. When Lehman Brothers collapsed in September 2008 bilateral markets stopped functioning correctly, notably the cleared markets ploughed on.</description>
+      <content>&lt;p&gt;&lt;em&gt;In this article we explain the consequences of concentration risk in financial markets. Following this we explain why the Margined Protocol wants to facilitate the adoption of public blockchain networks and DeFi applications by traditional financial institutions to reduce contractration risks. Achieving this through enabling a wider array of end-users to clear and settle directly.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Post the Global Financial Crisis (GFC) derivatives trading has been transformed. When Lehman Brothers collapsed in September 2008 bilateral markets stopped functioning correctly, notably the cleared markets ploughed on. Indeed, the cleared trades made by Lehman were hedged or neutralised within a week whereas bilateral trades took far longer to unwind [1]. Naturally since the GFC there has been an increased push towards central clearing.&lt;/p&gt;
+&lt;p&gt;Whilst central clearing has provided material benefits to markets, the share of open interest held by the largest market participants has increased substantially. Concretely, in the last 2 decades the number of Futures Commision Merchants (FCM) declined by almost two-thirds - from 177 in June 2006 to a mere 63 in March 2021 [2]. This has resulted in the top 5 and 10 FCMs holding approximately 60 and 80 percent of all open interest [3].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the problem?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Having an extremely concentrated set of clearing members poses significant systemic risks, especially during times of stress. The, so-called, first law of clearing states:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“&amp;hellip;within a clearing system the number of long positions must always equal the number of short positions for the same instrument”&lt;/em&gt; [4]&lt;/p&gt;
+&lt;p&gt;When a default occurs the defaulting party must be replaced in order to maintain a balanced book. In a Central Counterparty (CCP) the defaulting parties position is auctioned to the other clearing members. If the block of trades needing to be replaced is large and concentrated, a sale can have a significant market impact leading and be procyclical. Moreover, as the number of clearing members reduces and the size of open interest held by each market participant increases, the ability to absorb mutualised losses decreases.&lt;/p&gt;
+&lt;p&gt;Having seen what happens when a leveraged but still small family office gets liquidated the consequences of an individual clearing member’s insolvency should not be ignored! [5]&lt;/p&gt;
+&lt;p&gt;Whilst the chances of a clearing member default are considered remote, due to the interconnected nature of CCPs a default would have systemic impact.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What would a different world look like?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Fundamentally all trades are bilateral between a buyer and seller - regardless of whether the transaction is a coconut for a shekel or an interest rate derivative. Broadening access to direct clearing and settlement between market participants would provide material benefits to the wider system.&lt;/p&gt;
+&lt;p&gt;In normal times the benefits are somewhat less glamorous but nevertheless desirable. For example for buy-side market participants direct clearing could lower the overall cost of trading through far higher levels of automation; provide an increased number of market participants through a lower barrier to entry; and remove the asymmetries in the collateral management processes reducing time spent both over- and under-collateralised.&lt;/p&gt;
+&lt;p&gt;In the case of sell-side market participants direct clearing could provide more significant benefits such as reducing the capital requirements on banks. This would be possible as client’s positions would no longer be reflected on the banks’ balance sheet reducing the leverage of the bank [6]. Moreover the internal brokerage divisions could focus on the more profitable parts of the value chain such as credit provision.&lt;/p&gt;
+&lt;p&gt;In contrast during times of market stress the impact would be greater.&lt;/p&gt;
+&lt;p&gt;Firstly, overall lower levels of concentration makes the case of default much easier to manage. If open interest is spread between more participants than a single default is far smaller and less impactful. Similarly, increasing the number of participants involved in the clearing network would provide additional capacity to purchase defaulting parties positions - potentially improving auction results. Additionally, in the current state the case of a clearing member default the end-users face a significant operational burden in moving their positions to another clearing member which would not be the case in a more bilateral environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How is Margined Protocl building this world?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Clearing as a business operation is defined as:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;‘clearing’ means the process of establishing positions, including the calculation of net obligations, and ensuring that financial instruments, cash, or both, are available to secure the exposures arising from those positions;&lt;/em&gt; [7]&lt;/p&gt;
+&lt;p&gt;In both professional and academic literature a less concentrated and decentralised clearing and settlement system has been discussed for some time now. Technology, until recently, has not been able to realise this. In the client-server architecture of financial markets it has fallen upon a third-party service provider to perform the clearing and reconciliation of positions - with other parties performing the settlement operations.&lt;/p&gt;
+&lt;p&gt;The Margined Protocol uses public Turing-complete blockchain and smart contracts to allow market participants to both clear and settle without intermediation by trusted third-party. The platform provides counterparties with the tools and infrastructure to manage their positions on a completely bilateral basis. Using deterministic and verifiable protocols, enforced by a smart Financial Collateral Arrangement (FCA), to automatically calculate the amount of both initial and variation margin due.&lt;/p&gt;
+&lt;p&gt;Previous attempts to enable direct clearing at CCPs and other bilateral clearing and settlement services have faced challenges. In the past direct clearing would place significant operational burden on end-users. Equally the management of defaults would have required large manual interaction by the end-users. Margined Protocol’s smart FCA automates these processes, only requiring end-user interaction on creation of a new trading relationship and to manage edge-scenarios.&lt;/p&gt;
+&lt;p&gt;This is enabled using deterministic and verifiable protocols that auto execute, while the cryptographic guarantees of the blockchain ensure end-users are able to verify that any operation has been carried out correctly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Concentration risk is a significant and real risk to financial stability which should be taken seriously. Whilst capital markets aren’t complete monopolies the interconnected nature of the largest market participants, especially given the overlapping membership of the clearing institutions, means that a default by a systemically important participant would likely spread across the wider system.&lt;/p&gt;
+&lt;p&gt;Blockchains and DeFi protocols show a way to create Financial Market Infrastructure that doesn’t make tradeoffs between centralisation and efficiency using smart contracts and digital assets to automate the management of clearing and settlement.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bibliography&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[1]: Norman, Peter, 2011, The Risk Controllers: Central Counterparty Clearing in Globalised Financial Markets
+[2]: &lt;a href=&#34;https://www.cftc.gov/MarketReports/financialfcmdata/index.htm&#34;&gt;https://www.cftc.gov/MarketReports/financialfcmdata/index.htm&lt;/a&gt;
+[3]: Alvarez, Nahiomy, McPartland, John, 2020, &lt;a href=&#34;https://www.risk.net/journal-of-financial-market-infrastructures/7695641/concentration-in-cleared-derivatives-the-case-for-broadening-access-to-direct-central-counterparty-clearing&#34;&gt;https://www.risk.net/journal-of-financial-market-infrastructures/7695641/concentration-in-cleared-derivatives-the-case-for-broadening-access-to-direct-central-counterparty-clearing&lt;/a&gt;
+[4]:McPartland, John, 2003, &lt;a href=&#34;https://secure.fia.org/downloads/Outlook/OpenArchitectureClearing.pdf&#34;&gt;https://secure.fia.org/downloads/Outlook/OpenArchitectureClearing.pdf&lt;/a&gt;
+[5]: &lt;a href=&#34;https://www.ft.com/content/8062ef53-790f-4470-99d5-265335a72334&#34;&gt;https://www.ft.com/content/8062ef53-790f-4470-99d5-265335a72334&lt;/a&gt;
+[6]: Alvarez, Nahiomy, McPartland, John, 2019, The concentration of cleared derivatives: Can access to direct CCP clearing for end-users address the challenge?
+[7]: &lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012R0648&amp;amp;from=EN&#34;&gt;https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012R0648&amp;amp;from=EN&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Digital Dispute Resolution Rules: Why, What and When</title>
+      <link>https://mrgnd.io/posts/digital-dispute-rules-26042021/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/digital-dispute-rules-26042021/</guid>
+      <description>In this blog post we examine the “Digital Dispute Resolution Rules” - published by the UK Jurisdiction Taskforce (UKJT) 1. These rules provide the foundations for automated dispute resolution mechanisms built into smart contracts. In particular, these rules are relevant for smart Financial Collateral Arrangement to enable the automation of dispute resolution in post-trade operations. Doing so by providing deterministic mechanisms that automate clearing and settlement of collateral - therefore reducing the occurrence of disputes.</description>
+      <content>&lt;p&gt;In this blog post we examine the “Digital Dispute Resolution Rules” - published by the UK Jurisdiction Taskforce (UKJT) &lt;a href=&#34;https://35z8e83m1ih83drye280o9d1-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Lawtech_DDRR_Final.pdf&#34;&gt;1&lt;/a&gt;. These rules provide the foundations for automated dispute resolution mechanisms built into smart contracts. In particular, these rules are relevant for &lt;em&gt;smart&lt;/em&gt; Financial Collateral Arrangement to enable the automation of dispute resolution in post-trade operations. Doing so by providing deterministic mechanisms that automate clearing and settlement of collateral - therefore reducing the occurrence of disputes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What are the Digital Dispute Resolution Rules?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Digital Dispute Resolution Rules (DDRR) are the follow on from the UKJT’s “Statement on Cryptoassets and Smart Contracts” &lt;a href=&#34;https://www.judiciary.uk/announcements/the-chancellor-of-the-high-court-sir-geoffrey-vos-launches-legal-statement-on-the-status-of-cryptoassets-and-smart-contracts&#34;&gt;2&lt;/a&gt;. The aim of these rules is to create the legal basis of dispute resolution in digital business relationships - which includes blockchain networks.&lt;/p&gt;
+&lt;p&gt;In the words of the UKJT they are providing the grounding to:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“&amp;hellip;facilitate the rapid and cost-effective resolution of commercial disputes, particularly those involving novel digital technology such as cryptoassets, cryptocurrency, smart contracts, distributed ledger technology…”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As such the UKJT provides a number of avenues for dispute resolution to occur on in digital business relationships. The mechanisms relevant to smart contracts and blockchain technologies fall into two categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated dispute resolution&lt;/li&gt;
+&lt;li&gt;Vote based arbitration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An automated dispute resolution mechanism could be encoded into a smart contract protocol and be executed autonomously. Whereas a vote based arbitration mechanism may require active interaction from a number of different parties to resolve a dispute - an prominent example being Kleros &lt;a href=&#34;https://kleros.io/&#34;&gt;3&lt;/a&gt;. However, dispute resolutions rules would not apply automatically. Therefore parties wishing to use an on-chain mechanism to resolve a dispute would need to show their explicit agreement.&lt;/p&gt;
+&lt;p&gt;With the UKJT DDRR stating:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;The Rules do not apply automatically; they must be agreed to in writing by the parties&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In addition to the use of on-chain arbitration mechanisms the rules make clear that on-chain data is admissible as evidence in legal proceedings. This is important as even with smart contracts parties will likely still want to be able to use traditional legal methods if an on-chain resolution mechanism did not function as intended.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why is this important?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Smart contracts enable the automation and encoding of business and legal processes. In order to automate post-trade processes we propose to create a smart Financial Collateral Arrangement (FCA).&lt;/p&gt;
+&lt;p&gt;The smart FCA is a smart contract that defines the trading relationship of two market participants. For example, users must specify in the contract the eligible collateral they accept - similar to the ISDA master agreement. However the users also define the dispute and default resolution mechanisms which they agree to follow - should such situations arise.&lt;/p&gt;
+&lt;p&gt;Moreover, the protocols encoded by the smart FCA enable the valuation and settlement of users collateral obligations using the deterministic mechanisms and cryptographically verifiable market data.&lt;/p&gt;
+&lt;p&gt;Therefore users do not only agree to the dispute mechanisms, but, also the pricing and reconciliation methodologies used to determine the value of initial and variation margin. Furthermore the platform enables the counterparties to continually reconcile and enforce settlement to occur at agreed intervals.&lt;/p&gt;
+&lt;p&gt;Using deterministic mechanisms the protocol is able to reduce the number of disputes that occur in the trade lifecycle. In the current such disputes occur frequently as market participants are using both different inputs and methodologies to their reconciliation engines.&lt;/p&gt;
+&lt;p&gt;Frequent disputes between market participants leads to an increase in systemic risk and costs to market participants. Indeed the frictions caused by disputes over margin calculations can lead to significant periods of time where counterparties are either over- and under- collateralised.&lt;/p&gt;
+&lt;p&gt;Providing the infrastructure to perform transparent calculations using verifiable market data to market participants, the reconciliation of an entire portfolio can be completed without dispute arising. The UKJT DDRR gives the assurance that decisions the smart FCAs make are legally enforceable and that any collateral a counterparty receives in a dispute resolution cannot be clawed back by other off-chain mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But what about edge scenarios?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Above we described how the DDRR could be used to provide deterministic mechanisms in the happy path scenarios. However, the most important situations where legal certainty is required are the edge scenarios - such as events of default.&lt;/p&gt;
+&lt;p&gt;Using the smart Financial Collateral Arrangement, in an edge-case such as default, the grieved counterparty is able to trigger a resolution period. During this resolution period the defaulting counterparty has the ability to respond and the counterparties may resolve the default or dispute bilaterally. Upon expiration of the resolution period, 1pm the following business day, the deterministic mechanisms and verifiable market data can be used by the grieved counterparty to perform the close-out netting.&lt;/p&gt;
+&lt;p&gt;At which point the grieved user is able to make claim to the initial margin, pledged into the smart FCA by their counterparty, in order to cover any losses they may have incurred during the close-out netting.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>How I Learned to Stop Worrying and Love the Omnibus Account</title>
+      <link>https://mrgnd.io/posts/omnibus-account-21042021/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/omnibus-account-21042021/</guid>
+      <description>In this blog post we explain why creation of the omnibus account by the Bank of England is an important step and how it is relevant to a wide array of use-cases.
+On 19/04/2021 the Bank of England released a statement on Central Bank Digital Currency (CBDC). Announcing the creation of CBDC engagement and technology forums the statement received a great deal of attention.
+However, attached to the same email newsletter was a smaller piece of policy news titled - “Bank of England publishes policy for omnibus accounts in RTGS” 1.</description>
+      <content>&lt;p&gt;&lt;em&gt;In this blog post we explain why creation of the omnibus account by the Bank of England is an important step and how it is relevant to a wide array of use-cases.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;On 19/04/2021 the Bank of England released a statement on Central Bank Digital Currency (CBDC). Announcing the creation of CBDC engagement and technology forums the statement received a great deal of attention.&lt;/p&gt;
+&lt;p&gt;However, attached to the same email newsletter was a smaller piece of policy news titled - “Bank of England publishes policy for omnibus accounts in RTGS” &lt;a href=&#34;https://www.bankofengland.co.uk/news/2021/april/boe-publishes-policy-for-omnibus-accounts-in-rtgs&#34;&gt;1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This short piece of policy is, in our view, a far more radical and material change in central bank policy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is RTGS and why does it matter?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Real-Time Gross Settlement (RTGS) service is the system that processes payments of central bank reserves between financial institutions. As the economy ticks over throughout the day and payments large and small are settled using this system.&lt;/p&gt;
+&lt;p&gt;Access to RTGS systems is not open to everyone. Rather access is restricted to only the largest financial institutions - such as banks and clearing houses. They use these systems to pay each other and settle in central bank reserves.&lt;/p&gt;
+&lt;p&gt;Operated directly by the central bank the RTGS service is the backbone of a country&amp;rsquo;s economy and when it doesn’t work people notice. For example in february this year the American RTGS system, Fedwire, crashed preventing payments being made throughout the US.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But why do banks settle using central bank reserves?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When a payment made in the economy is not between accounts held at the same bank then an intermediary is needed to ensure that the credits and debits are applied correctly. The central bank provides this service via RTGS.&lt;/p&gt;
+&lt;p&gt;Moreover the reserves held by banks for use in RTGS settlement are where monetary policy and the real economy meet. The central bank applies the interest rate directly to the funds held.&lt;/p&gt;
+&lt;p&gt;Hence RTGS systems are not only important payment infrastructure but an integral part of monetary policy. Therefore the central banks do not want to increase resiliency of payments by creating alternatives as this would reduce the efficacy of setting interests rates as monetary policy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why is the Omnibus Account important?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So we have established that the RTGS system is how payments are settled in the economy. Then understood that central bank reserves are one tool that central banks use to implement monetary policy.&lt;/p&gt;
+&lt;p&gt;Given the changing nature of payments and technology central banks need to keep up. Opening the RTGS service to other payment systems is a way of fostering innovation. However, they need to do so in a way that does not disrupt or pose a risk to business as usual.&lt;/p&gt;
+&lt;p&gt;The omnibus model enables this.&lt;/p&gt;
+&lt;p&gt;Fundamentally the central bank operates a ledger and when payment instructions are received they debit the payer and credit the payee. Now let’s investigate the case where another system is able to interoperate with the RTGS service without using an omnibus account structure.&lt;/p&gt;
+
+  &lt;img src=&#34;https://mrgnd.io/images/rtgs-account.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+
+
+&lt;p&gt;In figure 1 above we see a simple representation of a payments network interoperating with the RTGS service - without an omnibus account. In this model we see that Alice and Bob, two RTGS participants, have reserves balances of 10 and 15 respectively.&lt;/p&gt;
+&lt;p&gt;As payments are made on the interoperating system the changes must continually be updated in the RTGS accounts. If the two ledgers become out-of-sync then credit risk is introduced as Alice or Bob may be unable to settle payments they have made on the interoperating system.&lt;/p&gt;
+&lt;p&gt;This is where the omnibus account model steps in.&lt;/p&gt;
+&lt;p&gt;Shown below in figure 2 the omnibus account is a new account into which central bank reserves are transferred. Instead of synchronising the two accounts on the RTGS service and interoperating system any reserves that are used are placed in a single bucket - the omnibus account.&lt;/p&gt;
+
+  &lt;img src=&#34;https://mrgnd.io/images/omnibus-account.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+
+
+&lt;p&gt;Each transfer into the bucket is then followed by a issuance of a synthetic or tokenised form of the central bank reserve on that interoperating system. The tokenised assets can then be transferred between system participants with the knowledge that every token is backed 1:1 by an asset in the omnibus account.&lt;/p&gt;
+&lt;p&gt;Therefore this simple construct removes the need for continued reconciliation between the two systems and the associated credit risk.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How can other projects learn from this?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This simple omnibus model of a single account from which digital assets are issued onto interoperating systems is not just relevant for central bank reserves and RTGS systems - the idea can apply more broadly to other projects trying to create digital assets.&lt;/p&gt;
+&lt;p&gt;In many blockchain and DLT projects we see the blockchain simply being used to record transfers of an asset. This leads to the introduction of settlement and credit risks - which we have shown an omnibus account structure can remove.&lt;/p&gt;
+&lt;p&gt;Alternative examples of this could be in the use-case of securities. Again the Central Securities Depository (CSD), rather than using blockchain to send settlement instructions to their internal ledger, issue the securities onto the ledger and use the omnibus account structure to ensure that the on-chain digital assets are always 1:1 backed by the “real-world” asset.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What does this mean for smart Finacial Collateral Arrangements?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Using smart Financial Collateral Arrangements our users will be able to pledge initial margin and settle variation margin payments - without the need for any third-parties.&lt;/p&gt;
+&lt;p&gt;Asset backed digital assets are a fundamental part of this and the omnibus account model enables the creation of tokenised digital assets that are 1:1 backed. This model increases efficiency of new technologies interoperating with legacy systems and removes the potential for credit risk occurring when two systems work together.&lt;/p&gt;
+&lt;p&gt;Adoption of the omnibus account model by multiple different use-cases will increase the speed and ability for blockchain and DLT technologies to integrate with existing systems and drive efficiency in capital markets.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Getting Rekt - Archegos and Systemic Risk</title>
+      <link>https://mrgnd.io/posts/getting-rekt-30032021/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/getting-rekt-30032021/</guid>
+      <description>In this post we look at the consequences of the Archegos saga and ask ourselves:
+ What happened? Why did it happen? What do we want to do about it?  What happened?
+On Friday (26/03/2021) murmurs that a large fund was going pop started to surface. As many people have already discussed, Archegos Capital Management received a margin call which it could not fund and its prime brokers started to unwind its positions.</description>
+      <content>&lt;p&gt;In this post we look at the consequences of the Archegos saga and ask ourselves:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What happened?&lt;/li&gt;
+&lt;li&gt;Why did it happen?&lt;/li&gt;
+&lt;li&gt;What do we want to do about it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;What happened?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On Friday (26/03/2021) murmurs that a large fund was going pop started to surface. As many people have already discussed, Archegos Capital Management received a margin call which it could not fund and its prime brokers started to unwind its positions.&lt;/p&gt;
+&lt;p&gt;The ensuing fire sale of their position, worth over $20bn, caused a sell-off, induced panic and sparked debate as everyone tried to understand what was happening and who was affected.&lt;/p&gt;
+&lt;p&gt;Archegos had amassed a significant synthetic derivative position with over 10 banks, specifically Total Return Swaps - for a nice description see here. Unfortunately these positions went sour resulting in a margin call from Archegos’ prime brokers which they were unable to fund. Leading to the unwinding of their positions and the massive block sell-offs that spooked the market on Friday.&lt;/p&gt;
+&lt;p&gt;Due to the extraordinary size of the position the sell-off became a massive game of musical chairs, with those left standing when the music stopped facing huge losses. Both Credit Suisse’s and Nomura’s prime brokerage divisions stand to have lost $2bn and counting. Wiping out any profits they stood to have made in H1 2021.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why did they make these trades?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The question arises why were these banks enabling a fund to amass such a huge position?&lt;/p&gt;
+&lt;p&gt;In short it’s because they wanted to make money.&lt;/p&gt;
+&lt;p&gt;Prime brokers (PB) charge their clients fees for their positions and take a slice of their profits. Whilst they might ask for some collateral it is typically not very significant as the PB takes the view they will simply unwind the position should the losses get too serious. This does typically work. However, when the position can become too-big-to-unwind, as in the case of Archegos, the unwinding becomes pro-cyclical and increases the losses as the market naturally responds to the sell off.&lt;/p&gt;
+&lt;p&gt;Here shown in plain sight is the lack of moral hazard for these institutions.&lt;/p&gt;
+&lt;p&gt;The PBs run the risk/reward calculation that it is worth it and enable these huge bets to be placed with big bonuses if it pays off and little downside if it fails. Except this time it failed much more spectacularly than they could have imagined.&lt;/p&gt;
+&lt;p&gt;The regulatory response will, as ever, be for greater amounts of centralisation.&lt;/p&gt;
+&lt;p&gt;Indeed would this situation have occurred in 12 months time then it is likely that Archegos’ position would have been economically unviable. This is as the equity swaps traded by Archegos would be in scope of phase 5 of the Uncleared Margin Rules (UMR) coming into force in September this year. Whereby Archegos and their PBs would have been required to post collateral to one another on a bilateral basis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What would have this changed?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Imagining for a moment that this blow-up had occurred under the UMR regime what would be different? Had the UMR been in force Archegos would have been required to post regulatory collateral to their counterparties (i.e. the prime brokers) and vice-versa.&lt;/p&gt;
+&lt;p&gt;However, would it have been enough?&lt;/p&gt;
+&lt;p&gt;To calculate the amount of Initial Margin that each counterparty would be required to post as collateral then we could use the schedule as defined in the BIS UMR paper. This would have required 15% of the notional exposure to be set aside as initial margin - given they were equity trades. Using the much bandied around figure of $20bn this would imply that Archegos and their PB would have had to post a total of $3bn in collateral to one another - giving a total of $6bn.&lt;/p&gt;
+&lt;p&gt;A substantial amount.&lt;/p&gt;
+&lt;p&gt;Likely they wouldn’t have used the schedule as it is capital inefficient so let us assume the margin model used was the more capital efficient ISDA SIMM. ISDA SIMM is a little complicated to calculate in a short blog post but we can assume it is not 100x more capital efficient so assuming it is 10x more capital efficient then this means Archegos would have had to pledge $300mn of initial margin to maintain their position.&lt;/p&gt;
+&lt;p&gt;This would likely make the position untenable as this would be an excessive cost to Archegos, but definitely to any PB on the other side of the trade.&lt;/p&gt;
+&lt;p&gt;Imagining that they had pledged sufficient collateral even in this scenario these onerous amounts of initial margin may only have partially covered the losses. Given that Nomura and Credit Suisse are saying they are sitting on a total loss of $3-4bn, net any profits the had made elsewhere, indicating the amount of collateral needed may have been gre&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What should be done?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Uncleared Margin Rules are not only designed to ensure there is sufficient collateral posted for OTC derivative trades rather they intend to push market participants to centrally clear their trades.&lt;/p&gt;
+&lt;p&gt;This is largely a good thing.&lt;/p&gt;
+&lt;p&gt;However, whilst using a central counterparty (CCP) has clear benefits for the market including risk mitigation there are two core issues.&lt;/p&gt;
+&lt;p&gt;Centralisation increases standardisation
+What happens when the CCP defaults&lt;/p&gt;
+&lt;p&gt;The momentum towards central clearing is gaining, standardisation of derivative contracts is an inevitable result. Leading to a smaller set of risks which market participants are able to hedge against. Though it is likely that there will always be a need and appetite for uncleared derivatives for niche hedges this will be a much smaller set of participants.&lt;/p&gt;
+&lt;p&gt;Secondly, whilst the waterfall models of CCPs are robustly designed and will likely cover most default scenarios we should keep the physics maxim “everything not forbidden is compulsory&amp;quot; in mind. Therefore, the scenario that default funds are insufficient should be an a priori consideration.&lt;/p&gt;
+&lt;p&gt;Moreover, as the Archegos saga goes to show, there are always plenty of individuals ready to press the manual override on the risk management system. Meaning whatever risk management practises are in place whether on purpose or not they will likely get broken. Couple this to the knack of traders to find a way to get the most leverage they possibly can from the tools they have available and eventually someone will find a way to truly get rekt.&lt;/p&gt;
+&lt;p&gt;So, shouldn’t we design our Financial Market Infrastructure with the inevitability of large defaults in mind?&lt;/p&gt;
+&lt;p&gt;Therefore, enabling market participants to trade on a wholly bilateral basis not only increases the moral hazard of trading institutions but makes the system more “antifragile”. If the only recourse upon default of your counterparty is the collateral pledged directly to you, as opposed to the knowledge that there is a default fund that will cover your losses, this would have extreme effects on trading patterns and risk management practises.&lt;/p&gt;
+&lt;p&gt;The DeFi world is showing the way in this area with the regular liquidation of positions not causing the market to crumble and teaching some the hard way about risk management before the issues become systemic. This will enable a return to a less centralised and “antifragile” market structure, that should prove more resilient to and prevent contagion of massive blow ups when they inevitably happen.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Infrastructure and Initial Margin</title>
+      <link>https://mrgnd.io/posts/infrastructure-and-initial-margin-23032021/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/infrastructure-and-initial-margin-23032021/</guid>
+      <description>In 2009 at the G20 summit in Pittsburgh the largest global economies took a long hard look at themselves and asked the question - ‘how do we stop that happening again?’.
+Of course, they were talking about the global financial crash and the failure of Lehman Brothers.
+Whilst the analysis of what caused the crisis remains debated to this day, what was clear at the time is that OTC derivatives trading practises certainly didn’t help.</description>
+      <content>&lt;p&gt;In 2009 at the G20 summit in Pittsburgh the largest global economies took a long hard look at themselves and asked the question - ‘how do we stop that happening again?’.&lt;/p&gt;
+&lt;p&gt;Of course, they were talking about the global financial crash and the failure of Lehman Brothers.&lt;/p&gt;
+&lt;p&gt;Whilst the analysis of what caused the crisis remains debated to this day, what was clear at the time is that OTC derivatives trading practises certainly didn’t help. Indeed, the difficulty identifying who owed what to whom led to the extended uncertainty in the aftermath of the crisis.&lt;/p&gt;
+&lt;p&gt;What is clear, however, is the regulatory response to the crash. Now, wherever possible, trades should be cleared. If trades are uncleared, market participants are to pledge segregated collateral to their counterparties - in order to cover any losses in the case of default. These rules were first laid out by the Bank for International Settlement in the Margin Requirements for Uncleared Derivatives and then implemented in Dodd-Frank and EMIR in the United States and Europe respectively &lt;a href=&#34;https://www.bis.org/bcbs/publ/d499.pdf&#34;&gt;1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Commonly known as the uncleared margin rules (UMR) they have been implemented through a number of phases. Initially, only the largest banks and financial institutions were in scope. However, as time has passed, more and more institutions have become subject to the requirements of UMR. Respectively from September 2021 and 2022 phases 5 and 6 of the UMR rules will come into effect - bringing hundreds and then thousands of market participants into scope.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What are the consequences?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In addition to the requirement to exchange variation margin, which was commonplace before, UMR adds the need for market participants to exchange security collateral, or initial margin, on a bilateral basis. This collateral is intended to cover the losses incurred should either counterparty default and therefore must be held in a segregated account.&lt;/p&gt;
+&lt;p&gt;In the current state this is enabled through two models:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tri-party agent&lt;/li&gt;
+&lt;li&gt;Third-party custodian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regardless of which model firms choose to implement they both have the same problem - namely onboarding delays &lt;a href=&#34;https://www.globalcustodian.com/industry-associations-urge-regulators-postpone-upcoming-initial-margin-phases/&#34;&gt;2&lt;/a&gt;. This is largely due to the significant difference in scale from phases 1-4 in comparison with phases 5-6.&lt;/p&gt;
+&lt;p&gt;Where initially only approximately 50 institutions were subject to UMR, in phases 5 and 6 the number is estimated to increase 20x to around 1000 firms &lt;a href=&#34;https://www.capco.com/Intelligence/Capco-Intelligence/Umr-Phase-5-And-6-Delay-A-Perspective-From-Capco-And-Acadiasoft&#34;&gt;3&lt;/a&gt;. This significant increase in firms affected will result in over 9000 new collateral arrangements to be created &lt;a href=&#34;https://www.euroclear.com/newsandinsights/en/Format/Articles/umr-this-time-is-different.html&#34;&gt;4&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Simply put, current state operations are struggling to scale sufficiently to meet the demand!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Oh dear&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Legacy collateral management solutions are highly operationally intense and burdensome to deploy. Creating new arrangements requires significant changes to internal processes, requiring firms to adopt set of completely new operations.&lt;/p&gt;
+&lt;p&gt;Maybe there is another way.&lt;/p&gt;
+&lt;p&gt;Using smart contracts and programmable money, the Margined Protocol provides the tools and infrastructure for smart Financial Collateral Arrangements (FCA). Using the smart FCA users can clear and settle their variation margin obligations on an intraday basis. Additionally they are able to pledge initial margin directly to one another - without the need for a third party to be involved. The smart FCA enables counterparties to disburse the pledged collateral under a set of deterministic mechanisms - which are defined prior to contract creation. These protocols are able to cover a number of different scenarios including disputes and events of default.&lt;/p&gt;
+&lt;p&gt;Smart contracts provide the ability to create, alter and terminate agreements rapidly reducing the operational overhead associated with FCAs. Moreover, using smart contracts to define the terms of agreements allows users to know a priori how a scenario will be executed. Reducing the uncertainty associated with dispute resolution.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Post-Trade Payments and Beyond</title>
+      <link>https://mrgnd.io/posts/post-trade-payments-and-beyond-01032021/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/post-trade-payments-and-beyond-01032021/</guid>
+      <description>In this short post we explain how blockchain technology can be used for more than simple value transfer between two counterparties. Indeed, we discuss how blockchain, and DLT, enables not just removal of the intermediaries in payments but also the third-parties responsible for calculations throughout the entire trade life-cycle.
+Where are we?
+The introduction of intermediaries to maintain ledgers of deposits was a key development in the history of money. The ability for merchants to deposit in one city and withdraw in another enabled movement of capital on a larger scale than before and was responsible for a significant rise in global economic development.</description>
+      <content>&lt;p&gt;In this short post we explain how blockchain technology can be used for more than simple value transfer between two counterparties. Indeed, we discuss how blockchain, and DLT, enables not just removal of the intermediaries in payments but also the third-parties responsible for calculations throughout the entire trade life-cycle.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Where are we?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The introduction of intermediaries to maintain ledgers of deposits was a key development in the history of money. The ability for merchants to deposit in one city and withdraw in another enabled movement of capital on a larger scale than before and was responsible for a significant rise in global economic development. These intermediaries had to be trusted by depositors not tIn this short post we explain how blockchain technology can be used for more than simple value transfer between two counterparties. Indeed, we discuss how blockchain, and DLT, enables not just removal of the intermediaries in payments but also the third-parties responsible for calculations throughout the entire trade life-cycle.&lt;/p&gt;
+&lt;p&gt;The introduction of intermediaries to maintain ledgers of deposits was a key development in the history of money. The ability for merchants to deposit in one city and withdraw in another enabled mo spend or lose their deposits.&lt;/p&gt;
+&lt;p&gt;This simple story is in large the motivation of Bitcoin and is the typical lens through which blockchain technology is viewed - i.e., solving the double-spend problem. Of course, this is a key use-case, blockchain can provide a shared ledger enabling two counterparties to transfer  value between one another without needing a third party to oversee.&lt;/p&gt;
+&lt;p&gt;However, it is so much more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Valuation and Trustless Computation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In addition to maintaining a ledger of balances, another role given to third parties in financial transactions is to perform pricing and valuation. This ranges from determining the price of a complex derivative product to simply the summation of the net position of a portfolio. The point being that this intermediary has a discretionary responsibility.&lt;/p&gt;
+&lt;p&gt;For example, in the ISDA framework the counterparties designate a valuation agent as part of their master agreement. The valuation agent is given the task of calculating the mark-to-market of the counterparties portfolio. Additionally, the may use a calculation agent, again a third party, who has the final say on the pricing of the counterparties trades.&lt;/p&gt;
+&lt;p&gt;These valuation and calculation agents have a high degree of discretion over how they arrive at a valuation. Unsurprisingly this arrangement usually ends up favouring one of the two parties in the agreement.&lt;/p&gt;
+&lt;p&gt;So, what can we do if we don&amp;rsquo;t agree with the value?&lt;/p&gt;
+&lt;p&gt;One solution is to assign a co-calculation agent or pursue a legal dispute. In either case it is a slow and expensive way of arriving at an answer - and you still might not like that answer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How can blockchain help?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In addition to the ability to transfer value between users some blockchains have the ability to run computer programs. Typically known as smart contracts these programs can be run without the need for a third party to provide the computational resources to do so. Meaning that instead of a relying on the third party to perform our calculation we are able to execute them using the blockchain network.&lt;/p&gt;
+&lt;p&gt;How does this help financial transactions?&lt;/p&gt;
+&lt;p&gt;Being able to run calculations without a third party can help to remove the disputes and asymmetries that arise as part of the pricing and valuation of counterparties trades.&lt;/p&gt;
+&lt;p&gt;Using a blockchain to run smart contracts counterparties will be able to agree a priori the valuation method for their portfolio and individual trades. Not only does this remove the ambiguity of the valuations, but it enables users to use identical pricing methodologies.&lt;/p&gt;
+&lt;p&gt;Disputes due to valuation disagreements and other operational errors add in excess of $3+ billion to the cost of trading &lt;a href=&#34;https://www.marketsmedia.com/derivatives-post-trade-poised-for-digital-transformation/&#34;&gt;1&lt;/a&gt;. Therefore the elimination of disputes has the potential to create significant savings for market participants.&lt;/p&gt;
+&lt;p&gt;Additionally, the creation of shared and transparent pricing methodologies is one step towards the creation of new financial products such as smart contract derivatives. Already a great deal of work in this area in the DeFi space but the real prize is adoption by traditional financial market participants.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

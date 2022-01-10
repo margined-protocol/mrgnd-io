@@ -1,0 +1,10 @@
+name = "mrgndio"
+type = "webpack"
+route = 'mrgnd.io/*'
+zone_id = 'ed41fa4100ab516f7024d5421f96cce8'
+account_id = 'b14a68492995d6afc6967efc3c78268e'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+site = {bucket = "./public",entry-point = "mrgnd"}
+compatibility_date = "2022-01-02"

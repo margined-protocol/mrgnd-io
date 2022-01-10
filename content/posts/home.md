@@ -4,21 +4,46 @@ date = "2021-12-30"
 author = "Margined Protocol"
 +++
 
-**Margined Protocol** is a set of generalised protocols for building margin engines and more on public blockchain networks.
+As more financial use-cases are deployed on public blockchain networks common standards and frameworks will be required.
 
-As more financial use-cases are deployed on public blockchain networks common standards and frameworks will be required. Not just for tokenisation of assets but also:
+**Margined Protocol** is a set of generalised protocols for building and deploying margin engines, and more, on public blockchain networks.
 
-* Valuation and Margin Methodologies
-* Risk Management
-* Clearing and Settlement
+The project aims to enable the deployment of _traditional financial_ use-cases onto public blockchain networks, whilst also providing a smart contract and tooling library that can be used in _decentralised finance_ applications.
 
-**Margined Protocol**'s frameworks will enable traditional financial players to interact with and adopt public blockchain applications such as AMMs, perpetuals and others. Whilst also enabling those counterparties to create bespoke bilateral trade arrangements and use on-chain risk management tools and analytics.
+In addition to providing generalised smart contracts for applications including:
 
-## Why is this important?
+* _virtual_ Automated Market Makers
+* Margin and Valuation Engines
+* _Smart_ Financial Collateral Arrangements
 
-Increasing the adoption of public blockchain networks is critical for their long-term success as the existing settlement systems are creaking and highly centralised. Bringing traditional financial players to public networks will help create a more robust financial system whilst disrupting the power asymmetries that plague the current state.
+**Margined Protocol** will also provide off-chain tools and services for:
 
-## Roadmap
+* Automation of Post-Trade Operations
+* Tokenisation of Traditional Financial Assets
+* On- and Off-Chain Risk Management
 
-* v1 General Margin Engine Terra Blockchain
-    * Provides users the ability to create perpetual contracts on the Terra blockchain
+# Roadmap
+
+**Q1 2022**
+
+* v1 Terra Perpetuals
+    * Features: 
+        * Generalised vAMM
+        * Generalised Perpetuals Margin Engine
+
+**Q2 2022**
+
+* v2 Terra Perpetuals
+    * Features:
+        * Governance Contract
+        * Generalised vAMM
+        * Generalised Perpetuals Margin Engine
+
+**Onwards**
+
+* Multichain Margin Engines
+    * Solana
+    * Ethereum
+* Smart Financial Collateral Arrangement
+* Develop Risk Management Tooling
+* Develop Digital Asset Securities Framework
