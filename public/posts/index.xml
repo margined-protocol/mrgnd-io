@@ -6,11 +6,11 @@
     <description>Recent content in Posts on Margined Protocol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mrgnd.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mrgnd.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Margined Protocol?</title>
       <link>https://mrgnd.io/posts/home/</link>
-      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://mrgnd.io/posts/home/</guid>
       <description>As more financial use-cases are deployed on public blockchain networks common standards and frameworks will be required.
@@ -35,29 +35,70 @@ In addition to providing generalised smart contracts for applications including:
 &lt;h1 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Q1 2022&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Publish Litepaper&lt;/li&gt;
-&lt;li&gt;v1 Release Perpetuals Framework Cosmos / Terra
+&lt;li&gt;v1 Terra Perpetuals
+&lt;ul&gt;
+&lt;li&gt;Features:
 &lt;ul&gt;
 &lt;li&gt;Generalised vAMM&lt;/li&gt;
 &lt;li&gt;Generalised Perpetuals Margin Engine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Q2 2022&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;v1 Release Perpetuals Framework Solana
+&lt;li&gt;v2 Terra Perpetuals
 &lt;ul&gt;
+&lt;li&gt;Features:
+&lt;ul&gt;
+&lt;li&gt;Governance Contract&lt;/li&gt;
 &lt;li&gt;Generalised vAMM&lt;/li&gt;
 &lt;li&gt;Generalised Perpetuals Margin Engine&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;v1 &lt;em&gt;Smart&lt;/em&gt; Financial Collateral Arrangement Framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Onwards&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Multichain Margin Engines
+&lt;ul&gt;
+&lt;li&gt;Solana&lt;/li&gt;
+&lt;li&gt;Ethereum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Smart Financial Collateral Arrangement&lt;/li&gt;
 &lt;li&gt;Develop Risk Management Tooling&lt;/li&gt;
 &lt;li&gt;Develop Digital Asset Securities Framework&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Margined Protocol v1 Architecture</title>
+      <link>https://mrgnd.io/posts/margined-architecture-23012022/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgnd.io/posts/margined-architecture-23012022/</guid>
+      <description>Shown below is a high-level overview of the Margined Protocol v1 architecture.
+ Governance contract manages and execute proposals proposals made by governance token holders. Owner of the factory contract. Factory contract manages margin engines, vAMMs and oracles used by protocol. Users interact with margin engines to create, maintain and close positions. Margin engine interacts with vAMM to manage user positions. Margin engine escrows users collateral as initial margin on creation of new positions.</description>
+      <content>&lt;p&gt;Shown below is a high-level overview of the Margined Protocol v1 architecture.&lt;/p&gt;
+
+  &lt;img src=&#34;https://mrgnd.io/img/margined-architecture-block.png&#34;  alt=&#34;Margined Protocol v1 Architecture&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Governance contract manages and execute proposals proposals made by governance token holders. Owner of the factory contract.&lt;/li&gt;
+&lt;li&gt;Factory contract manages margin engines, vAMMs and oracles used by protocol.&lt;/li&gt;
+&lt;li&gt;Users interact with margin engines to create, maintain and close  positions.&lt;/li&gt;
+&lt;li&gt;Margin engine interacts with vAMM to manage user positions.&lt;/li&gt;
+&lt;li&gt;Margin engine escrows users collateral as initial margin on creation of new positions.&lt;/li&gt;
+&lt;li&gt;Oracles feed data into both vAMMs and margin engines for valuation of collateral.&lt;/li&gt;
+&lt;li&gt;Liquidators watch positions held by users for liquidation events or to ensure funding payments occur.&lt;/li&gt;
+&lt;li&gt;Users are able to stake their governance tokens to create, participate and execute governance actions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For more information or enquiries please reach out to us at &lt;a href=&#34;mailto:contact@mrgnd.io&#34;&gt;contact@mrgnd.io&lt;/a&gt;.&lt;/p&gt;
 </content>
     </item>
     
@@ -86,7 +127,7 @@ The term “smart contract” was first coined in the 1990s by computer scientis
 &lt;p&gt;The Margined Protocol uses smart contract composability to show how the future of capital markets will benefit from the ability of protocols to interact. Specifically we allowed users of our smart Financial Collateral Arrangement (FCA) to lend their initial margin to the Compound lending protocol. This lets users earn a yield on their collateral whilst remaining pledged for use in the event of default.&lt;/p&gt;
 &lt;p&gt;Smart contract composability allows this as the IM that is pledged between the counterparties in a smart FCA is then lent on Compound which mints interest-bearing assets, cUSDC, that can later be redeemed for the original lent amount plus the interest earned until that point in the original form of eligible collateral - USDC in our example.&lt;/p&gt;
 
-  &lt;img src=&#34;https://mrgnd.io/images/jaime-diagram.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+  &lt;img src=&#34;https://mrgnd.io/img/jaime-diagram.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
 
 
 &lt;p&gt;The important aspect here is how we have created a new feature for our application by leveraging composability and simply integrating against a permissionless lending protocol such as Compound.&lt;/p&gt;
@@ -205,7 +246,7 @@ However, attached to the same email newsletter was a smaller piece of policy new
 &lt;p&gt;The omnibus model enables this.&lt;/p&gt;
 &lt;p&gt;Fundamentally the central bank operates a ledger and when payment instructions are received they debit the payer and credit the payee. Now let’s investigate the case where another system is able to interoperate with the RTGS service without using an omnibus account structure.&lt;/p&gt;
 
-  &lt;img src=&#34;https://mrgnd.io/images/rtgs-account.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+  &lt;img src=&#34;https://mrgnd.io/img/rtgs-account.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
 
 
 &lt;p&gt;In figure 1 above we see a simple representation of a payments network interoperating with the RTGS service - without an omnibus account. In this model we see that Alice and Bob, two RTGS participants, have reserves balances of 10 and 15 respectively.&lt;/p&gt;
@@ -213,7 +254,7 @@ However, attached to the same email newsletter was a smaller piece of policy new
 &lt;p&gt;This is where the omnibus account model steps in.&lt;/p&gt;
 &lt;p&gt;Shown below in figure 2 the omnibus account is a new account into which central bank reserves are transferred. Instead of synchronising the two accounts on the RTGS service and interoperating system any reserves that are used are placed in a single bucket - the omnibus account.&lt;/p&gt;
 
-  &lt;img src=&#34;https://mrgnd.io/images/omnibus-account.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+  &lt;img src=&#34;https://mrgnd.io/img/omnibus-account.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
 
 
 &lt;p&gt;Each transfer into the bucket is then followed by a issuance of a synthetic or tokenised form of the central bank reserve on that interoperating system. The tokenised assets can then be transferred between system participants with the knowledge that every token is backed 1:1 by an asset in the omnibus account.&lt;/p&gt;

@@ -38,7 +38,7 @@ The omnibus model enables this.
 
 Fundamentally the central bank operates a ledger and when payment instructions are received they debit the payer and credit the payee. Now let’s investigate the case where another system is able to interoperate with the RTGS service without using an omnibus account structure.
 
-{{< image src="/images/rtgs-account.png" alt="Hello Friend" position="center" style="border-radius: 0px;" >}}
+{{< image src="/img/rtgs-account.png" alt="Hello Friend" position="center" style="border-radius: 0px;" >}}
 
 In figure 1 above we see a simple representation of a payments network interoperating with the RTGS service - without an omnibus account. In this model we see that Alice and Bob, two RTGS participants, have reserves balances of 10 and 15 respectively.
 
@@ -48,7 +48,7 @@ This is where the omnibus account model steps in.
 
 Shown below in figure 2 the omnibus account is a new account into which central bank reserves are transferred. Instead of synchronising the two accounts on the RTGS service and interoperating system any reserves that are used are placed in a single bucket - the omnibus account.
 
-{{< image src="/images/omnibus-account.png" alt="Hello Friend" position="center" style="border-radius: 0px;" >}}
+{{< image src="/img/omnibus-account.png" alt="Hello Friend" position="center" style="border-radius: 0px;" >}}
 
 Each transfer into the bucket is then followed by a issuance of a synthetic or tokenised form of the central bank reserve on that interoperating system. The tokenised assets can then be transferred between system participants with the knowledge that every token is backed 1:1 by an asset in the omnibus account.
 

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Margined Protocol v1 Architecture :: Margined Protocol</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Shown below is a high-level overview of the Margined Protocol v1 architecture.
+ Governance contract manages and execute proposals proposals made by governance token holders. Owner of the factory contract. Factory contract manages margin engines, vAMMs and oracles used by protocol. Users interact with margin engines to create, maintain and close positions. Margin engine interacts with vAMM to manage user positions. Margin engine escrows users collateral as initial margin on creation of new positions." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://mrgnd.io/posts/margined-architecture-23012022/" />
+
+
+
+
+<link rel="stylesheet" href="https://mrgnd.io/assets/style.css">
+
+  <link rel="stylesheet" href="https://mrgnd.io/assets/custom.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="https://mrgnd.io/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://mrgnd.io/img/favicon/custom.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Margined Protocol" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Margined Protocol v1 Architecture">
+<meta property="og:description" content="Shown below is a high-level overview of the Margined Protocol v1 architecture.
+ Governance contract manages and execute proposals proposals made by governance token holders. Owner of the factory contract. Factory contract manages margin engines, vAMMs and oracles used by protocol. Users interact with margin engines to create, maintain and close positions. Margin engine interacts with vAMM to manage user positions. Margin engine escrows users collateral as initial margin on creation of new positions." />
+<meta property="og:url" content="https://mrgnd.io/posts/margined-architecture-23012022/" />
+<meta property="og:site_name" content="Margined Protocol" />
+
+  
+    <meta property="og:image" content="https://mrgnd.io/img/favicon/custom.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2022-01-23 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="custom">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Margined Protocol
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/contact">Contact</a></li>
+        
+      
+        
+          <li><a href="/roadmap">Roadmap</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/contact">Contact</a></li>
+      
+    
+      
+        <li><a href="/roadmap">Roadmap</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://mrgnd.io/posts/margined-architecture-23012022/">Margined Protocol v1 Architecture</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2022-01-23
+        
+      </span>
+    
+    
+      <span class="post-author">:: Margined Protocol</span>
+    
+    
+  </div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Shown below is a high-level overview of the Margined Protocol v1 architecture.</p>
+
+  <img src="/img/margined-architecture-block.png"  alt="Margined Protocol v1 Architecture"  class="center"  style="border-radius: 0px;"  />
+
+
+<ol>
+<li>Governance contract manages and execute proposals proposals made by governance token holders. Owner of the factory contract.</li>
+<li>Factory contract manages margin engines, vAMMs and oracles used by protocol.</li>
+<li>Users interact with margin engines to create, maintain and close  positions.</li>
+<li>Margin engine interacts with vAMM to manage user positions.</li>
+<li>Margin engine escrows users collateral as initial margin on creation of new positions.</li>
+<li>Oracles feed data into both vAMMs and margin engines for valuation of collateral.</li>
+<li>Liquidators watch positions held by users for liquidation events or to ensure funding payments occur.</li>
+<li>Users are able to stake their governance tokens to create, participate and execute governance actions.</li>
+</ol>
+<p>For more information or enquiries please reach out to us at <a href="mailto:contact@mrgnd.io">contact@mrgnd.io</a>.</p>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="https://mrgnd.io/posts/home/">
+                <span class="button__icon">←</span>
+                <span class="button__text">What is Margined Protocol?</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="https://mrgnd.io/posts/composability-21072021/">
+                <span class="button__text">Composability: What is it and why should you care?</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://mrgnd.io/assets/main.js"></script>
+<script src="https://mrgnd.io/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

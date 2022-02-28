@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mrgnd.io/</loc>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mrgnd.io/posts/</loc>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mrgnd.io/posts/home/</loc>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mrgnd.io/posts/margined-architecture-23012022/</loc>
+    <lastmod>2022-01-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mrgnd.io/about/</loc>
     <lastmod>2021-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mrgnd.io/contact/</loc>
     <lastmod>2021-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mrgnd.io/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mrgnd.io/posts/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mrgnd.io/roadmap/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mrgnd.io/posts/home/</loc>
     <lastmod>2021-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mrgnd.io/posts/composability-21072021/</loc>

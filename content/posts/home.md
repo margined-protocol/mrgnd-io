@@ -1,6 +1,6 @@
 +++
 title = "What is Margined Protocol?"
-date = "2021-12-30"
+date = "2022-01-24"
 author = "Margined Protocol"
 +++
 

@@ -30,7 +30,7 @@ The Margined Protocol uses smart contract composability to show how the future o
 
 Smart contract composability allows this as the IM that is pledged between the counterparties in a smart FCA is then lent on Compound which mints interest-bearing assets, cUSDC, that can later be redeemed for the original lent amount plus the interest earned until that point in the original form of eligible collateral - USDC in our example.
 
-{{< image src="/images/jaime-diagram.png" alt="Hello Friend" position="center" style="border-radius: 0px;" >}}
+{{< image src="/img/jaime-diagram.png" alt="Hello Friend" position="center" style="border-radius: 0px;" >}}
 
 The important aspect here is how we have created a new feature for our application by leveraging composability and simply integrating against a permissionless lending protocol such as Compound.
 
