@@ -15,7 +15,7 @@ In this post we layout the key features of our v0, but also look past that to ad
   * Cross-Margining
   * Liquidity
 
-TODO: INSERT ROADMAP PIC
+{{< image src="/img/margined-roadmap.png" alt="Margined Protocol v1 Architecture" position="center" style="border-radius: 0px;" >}}
 
 ## v0 Release
 
