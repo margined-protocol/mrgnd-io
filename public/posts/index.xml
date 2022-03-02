@@ -15,30 +15,37 @@
       <guid>https://mrgnd.io/posts/margined-update-01032022/</guid>
       <description>Margined Protocol is building perpetuals for the CosmWasm eco-system - starting with Terra.
 In this post we layout the key features of our v0, but also look past that to additional features and innovations that Margined Protocol will implement in the future releases.
- v0 Release Future Release  Governance and Community  Permissionless Markets   Cross-Margining Liquidity    v0 Release The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network.</description>
+ v0 Release  Minimal Viable Perpetuals   Future Releases  v1 Release  Governance and Community Permissionless Markets Cross-Margining Liquidity      Roadmap Overview v0 Release The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network.</description>
       <content>&lt;p&gt;Margined Protocol is building perpetuals for the CosmWasm eco-system - starting with Terra.&lt;/p&gt;
 &lt;p&gt;In this post we layout the key features of our v0, but also look past that to additional features and innovations that Margined Protocol will implement in the future releases.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;v0 Release&lt;/li&gt;
-&lt;li&gt;Future Release
+&lt;li&gt;v0 Release
 &lt;ul&gt;
-&lt;li&gt;Governance and Community
-&lt;ul&gt;
-&lt;li&gt;Permissionless Markets&lt;/li&gt;
+&lt;li&gt;Minimal Viable Perpetuals&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Future Releases
+&lt;ul&gt;
+&lt;li&gt;v1 Release
+&lt;ul&gt;
+&lt;li&gt;Governance and Community&lt;/li&gt;
+&lt;li&gt;Permissionless Markets&lt;/li&gt;
 &lt;li&gt;Cross-Margining&lt;/li&gt;
 &lt;li&gt;Liquidity&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;roadmap-overview&#34;&gt;Roadmap Overview&lt;/h2&gt;
 
-  &lt;img src=&#34;https://mrgnd.io/img/margined-roadmap.png&#34;  alt=&#34;Margined Protocol v1 Architecture&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
+  &lt;img src=&#34;https://mrgnd.io/img/margined-roadmap.png&#34;  alt=&#34;Margined Protocol Roadmap&#34;  class=&#34;center&#34;  style=&#34;border-radius: 0px;&#34;  /&gt;
 
 
-&lt;h2 id=&#34;v0-release&#34;&gt;v0 Release&lt;/h2&gt;
-&lt;p&gt;The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network.&lt;/p&gt;
-&lt;h2 id=&#34;future-releases&#34;&gt;Future Releases&lt;/h2&gt;
+&lt;h3 id=&#34;v0-release&#34;&gt;v0 Release&lt;/h3&gt;
+&lt;p&gt;The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network. Margined Protocol&amp;rsquo;s v0 release will be modelled on the successful examples of perpetuals deployed on other networks such as Perpetual and Drift Protocols.&lt;/p&gt;
+&lt;h2 id=&#34;v1-release&#34;&gt;v1 Release&lt;/h2&gt;
+&lt;p&gt;Once the v0 release is deployed future releases of the Margined Protocol intends to offer a different perpetuals product to users of Terra that maximises the capabilities of CosmWasm networks.&lt;/p&gt;
 &lt;h3 id=&#34;governance&#34;&gt;Governance&lt;/h3&gt;
 &lt;p&gt;A key part of the Margined Protocol is the community governance through the &lt;code&gt;$MRG&lt;/code&gt; token. Where strong coupling and alignment of the token holder incentives to protocol development will deliver long-term results.&lt;/p&gt;
 &lt;p&gt;Holders of the &lt;code&gt;$MRG&lt;/code&gt; token will be able to participate in governance decisions that include,&lt;/p&gt;
@@ -57,16 +64,12 @@ In this post we layout the key features of our v0, but also look past that to ad
 &lt;p&gt;Other perpetual products, such as Perpetual Protocol, have integrated the vAMM with the Uniswap v3 using concentrated liquidity pools. Whilst this does increase liquidity efficiency across the entire curve it can do so at the expense of liquidity outside those bounds.&lt;/p&gt;
 &lt;p&gt;At Margined Protocol we therefore will implement a &lt;em&gt;dynamic&lt;/em&gt; vAMM. The dynamic vAMM enables rebasing of the constant product formula over time to provide users less slippage and a better execution price whilst also reducing imbalance risk that occurs if the oracle and spot price diverge too much.&lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;In short Margined Protocol is going to bring perps to Terra! We think that the core characteristics that CosmWasm allows protocols, such as strong governance and upgradeability, mean that Margined Protocol can iterate rapidly on creating the best perpetual product in the market place.&lt;/p&gt;
+&lt;p&gt;In short Margined Protocol is going to bring Perps to Terra! We think that the core characteristics that CosmWasm allows protocols, such as strong governance and upgradeability, mean that Margined Protocol can iterate rapidly on creating the best perpetual product in the wider market place.&lt;/p&gt;
 &lt;p&gt;To learn more or to just say hi find us:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;discord.gg/NsmHWB8vaJ&#34;&gt;Discord&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/margined_io&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Boomer Style&lt;/strong&gt; &lt;a href=&#34;mailto:contact@mrgnd.io&#34;&gt;contact@mrgnd.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;[1]&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>

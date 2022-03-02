@@ -9,19 +9,25 @@ Margined Protocol is building perpetuals for the CosmWasm eco-system - starting 
 In this post we layout the key features of our v0, but also look past that to additional features and innovations that Margined Protocol will implement in the future releases.
 
 * v0 Release
-* Future Release
-  * Governance and Community
+  * Minimal Viable Perpetuals
+* Future Releases
+  * v1 Release
+    * Governance and Community
     * Permissionless Markets
-  * Cross-Margining
-  * Liquidity
+    * Cross-Margining
+    * Liquidity
 
-{{< image src="/img/margined-roadmap.png" alt="Margined Protocol v1 Architecture" position="center" style="border-radius: 0px;" >}}
+## Roadmap Overview
 
-## v0 Release
+{{< image src="/img/margined-roadmap.png" alt="Margined Protocol Roadmap" position="center" style="border-radius: 0px;" >}}
 
-The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network.
+### v0 Release
 
-## Future Releases
+The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network. Margined Protocol's v0 release will be modelled on the successful examples of perpetuals deployed on other networks such as Perpetual and Drift Protocols.
+
+## v1 Release
+
+Once the v0 release is deployed future releases of the Margined Protocol intends to offer a different perpetuals product to users of Terra that maximises the capabilities of CosmWasm networks.
 
 ### Governance
 
@@ -53,14 +59,10 @@ At Margined Protocol we therefore will implement a _dynamic_ vAMM. The dynamic v
 
 ## Summary
 
-In short Margined Protocol is going to bring perps to Terra! We think that the core characteristics that CosmWasm allows protocols, such as strong governance and upgradeability, mean that Margined Protocol can iterate rapidly on creating the best perpetual product in the market place.
+In short Margined Protocol is going to bring Perps to Terra! We think that the core characteristics that CosmWasm allows protocols, such as strong governance and upgradeability, mean that Margined Protocol can iterate rapidly on creating the best perpetual product in the wider market place.
 
 To learn more or to just say hi find us:
 
 * [Discord](discord.gg/NsmHWB8vaJ)
 * [Twitter](https://twitter.com/margined_io)
 * **Boomer Style** <contact@mrgnd.io>
-
-### References
-
-* [1] 

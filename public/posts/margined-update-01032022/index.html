@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Margined Protocol is building perpetuals for the CosmWasm eco-system - starting with Terra.
 In this post we layout the key features of our v0, but also look past that to additional features and innovations that Margined Protocol will implement in the future releases.
- v0 Release Future Release  Governance and Community  Permissionless Markets   Cross-Margining Liquidity    v0 Release The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network." />
+ v0 Release  Minimal Viable Perpetuals   Future Releases  v1 Release  Governance and Community Permissionless Markets Cross-Margining Liquidity      Roadmap Overview v0 Release The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://mrgnd.io/posts/margined-update-01032022/" />
@@ -45,7 +45,7 @@ In this post we layout the key features of our v0, but also look past that to ad
 <meta property="og:title" content="Margined Protocol Update 03/2022">
 <meta property="og:description" content="Margined Protocol is building perpetuals for the CosmWasm eco-system - starting with Terra.
 In this post we layout the key features of our v0, but also look past that to additional features and innovations that Margined Protocol will implement in the future releases.
- v0 Release Future Release  Governance and Community  Permissionless Markets   Cross-Margining Liquidity    v0 Release The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network." />
+ v0 Release  Minimal Viable Perpetuals   Future Releases  v1 Release  Governance and Community Permissionless Markets Cross-Margining Liquidity      Roadmap Overview v0 Release The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network." />
 <meta property="og:url" content="https://mrgnd.io/posts/margined-update-01032022/" />
 <meta property="og:site_name" content="Margined Protocol" />
 
@@ -163,26 +163,33 @@ In this post we layout the key features of our v0, but also look past that to ad
         <p>Margined Protocol is building perpetuals for the CosmWasm eco-system - starting with Terra.</p>
 <p>In this post we layout the key features of our v0, but also look past that to additional features and innovations that Margined Protocol will implement in the future releases.</p>
 <ul>
-<li>v0 Release</li>
-<li>Future Release
+<li>v0 Release
 <ul>
-<li>Governance and Community
-<ul>
-<li>Permissionless Markets</li>
+<li>Minimal Viable Perpetuals</li>
 </ul>
 </li>
+<li>Future Releases
+<ul>
+<li>v1 Release
+<ul>
+<li>Governance and Community</li>
+<li>Permissionless Markets</li>
 <li>Cross-Margining</li>
 <li>Liquidity</li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<h2 id="roadmap-overview">Roadmap Overview<a href="#roadmap-overview" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 
-  <img src="/img/margined-roadmap.png"  alt="Margined Protocol v1 Architecture"  class="center"  style="border-radius: 0px;"  />
+  <img src="/img/margined-roadmap.png"  alt="Margined Protocol Roadmap"  class="center"  style="border-radius: 0px;"  />
 
 
-<h2 id="v0-release">v0 Release<a href="#v0-release" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<p>The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network.</p>
-<h2 id="future-releases">Future Releases<a href="#future-releases" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h3 id="v0-release">v0 Release<a href="#v0-release" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>The v0 release of Margined Protocol aims simply to deliver the perpetuals onto the Terra network. Margined Protocol&rsquo;s v0 release will be modelled on the successful examples of perpetuals deployed on other networks such as Perpetual and Drift Protocols.</p>
+<h2 id="v1-release">v1 Release<a href="#v1-release" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Once the v0 release is deployed future releases of the Margined Protocol intends to offer a different perpetuals product to users of Terra that maximises the capabilities of CosmWasm networks.</p>
 <h3 id="governance">Governance<a href="#governance" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <p>A key part of the Margined Protocol is the community governance through the <code>$MRG</code> token. Where strong coupling and alignment of the token holder incentives to protocol development will deliver long-term results.</p>
 <p>Holders of the <code>$MRG</code> token will be able to participate in governance decisions that include,</p>
@@ -201,16 +208,12 @@ In this post we layout the key features of our v0, but also look past that to ad
 <p>Other perpetual products, such as Perpetual Protocol, have integrated the vAMM with the Uniswap v3 using concentrated liquidity pools. Whilst this does increase liquidity efficiency across the entire curve it can do so at the expense of liquidity outside those bounds.</p>
 <p>At Margined Protocol we therefore will implement a <em>dynamic</em> vAMM. The dynamic vAMM enables rebasing of the constant product formula over time to provide users less slippage and a better execution price whilst also reducing imbalance risk that occurs if the oracle and spot price diverge too much.</p>
 <h2 id="summary">Summary<a href="#summary" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<p>In short Margined Protocol is going to bring perps to Terra! We think that the core characteristics that CosmWasm allows protocols, such as strong governance and upgradeability, mean that Margined Protocol can iterate rapidly on creating the best perpetual product in the market place.</p>
+<p>In short Margined Protocol is going to bring Perps to Terra! We think that the core characteristics that CosmWasm allows protocols, such as strong governance and upgradeability, mean that Margined Protocol can iterate rapidly on creating the best perpetual product in the wider market place.</p>
 <p>To learn more or to just say hi find us:</p>
 <ul>
 <li><a href="discord.gg/NsmHWB8vaJ">Discord</a></li>
 <li><a href="https://twitter.com/margined_io">Twitter</a></li>
 <li><strong>Boomer Style</strong> <a href="mailto:contact@mrgnd.io">contact@mrgnd.io</a></li>
-</ul>
-<h3 id="references">References<a href="#references" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
-<ul>
-<li>[1]</li>
 </ul>
 
       </div></div>
